@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Alimama Shuhei";
+    src: url("./fonts/AlimamaShuHeiTi-Bold.ttf") format("truetype");
+    src: url("./fonts/AlimamaShuHeiTi-Bold.woff") format("woff"),
+    url("./fonts/AlimamaShuHeiTi-Bold.otf") format('opentype');
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 50px;
+}
+.card {
+    border-radius: 5px;
+    border: solid 2px #000000;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card .card-header {
+    margin: 100px auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.card .card-footer {
+    border-radius: 0 0 10px 10px;
+    background: rgba(230, 227, 227, 0.65);
+    padding: 10px 20px;
+}
+.card .card-footer p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.user-info{
+    display: flex;
+    justify-content: flex-start;
+}
+/*.userinfo-username > h6, .userinfo-username > p
+{
+    margin: 0 0 0 10px;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}*/
+.pagination {
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.pagination .pagination-items {
+    margin: 5px 10px;
+    padding: 5px;
+}
+.pagination .pagination-item {
+    margin: 5px 10px;
+    padding: 2px 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pagination > .pagination-items > .active {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: auto;
+}
+/*.flex {
+    display: flex;
+    align-items: center;
+}*/
+.my-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.hero-dimai {
+    font-family: "Alimama Shuhei";
+}
+w3m-text {
+    color: #FFFFFF;
+}
+.w3m-color-accnt {
+    color: #FFFFFF;
+}

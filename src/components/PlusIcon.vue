@@ -1,0 +1,5 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36" fill="none"><defs><rect id="path_0" x="0" y="0" width="36" height="36" /></defs><g opacity="1" transform="translate(0.00005859375005456968 0)  rotate(0 18 18)"><mask id="bg-mask-0" fill="white"><use xlink:href="#path_0"></use></mask><g mask="url(#bg-mask-0)" ><path id="分组 1" fill-rule="evenodd" style="fill:#808080" transform="translate(4.5 4.5)  rotate(0 13.5 13.5)" opacity="1" d="M2.25 2.25L2.25 24.75L24.75 24.75L24.75 2.25L2.25 2.25Z M1.13 0C0.51 0 0 0.51 0 1.13L0 25.88C0 26.49 0.51 27 1.13 27L25.88 27C26.49 27 27 26.49 27 25.88L27 1.13C27 0.51 26.49 0 25.88 0L1.13 0Z M4.5 14.74L12.35 14.74L12.35 22.5L14.65 22.5L14.65 14.74L22.5 14.74L22.5 12.43L14.65 12.43L14.65 4.5L12.35 4.5L12.35 12.43L4.5 12.43L4.5 14.74Z " /></g></g></svg>
+</template>
+
+<script setup></script>
